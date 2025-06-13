@@ -1,0 +1,47 @@
+[
+  {
+    "lat": -6.2088,
+    "lng": 106.8456,
+    "magnitude": 7,
+    "location": "Jakarta, Indonesia",
+    "depth": "30 km",
+    "time": "2 hours ago",
+    "radius": 500
+  },
+  {
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "magnitude": 7.2,
+    "location": "Tokyo, Japan",
+    "depth": "15 km",
+    "time": "5 hours ago",
+    "radius": 24
+  },
+  {
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "magnitude": 3.8,
+    "location": "Sydney, Australia",
+    "depth": "22 km",
+    "time": "8 hours ago",
+    "radius": 27
+  },
+  {
+    "lat": 40.7128,
+    "lng": -74.006,
+    "magnitude": 2.5,
+    "location": "New York, USA",
+    "depth": "10 km",
+    "time": "12 hours ago",
+    "radius": 18
+  },
+  {
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "magnitude": 3.1,
+    "location": "London, UK",
+    "depth": "18 km",
+    "time": "1 day ago",
+    "radius": 29
+  }
+]

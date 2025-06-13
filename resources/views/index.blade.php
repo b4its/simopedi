@@ -6,7 +6,7 @@
             </div>
             <div class="px-2 py-1 rounded-lg bg-gray-200 items-center">
                 <i class="bi bi-clock"></i>
-                <span id="dateTime">
+                <span id="current-time">
                 </span>
             </div>
         </div>
@@ -17,7 +17,7 @@
                     <div class="mb-3">
                         <span class="font-bold">Map Aktivitas</span>
                         <button type="spotlight-button:start">Mulai Tur</button>
-
+                        
                     </div>
                     <div id="map" class="w-full h-[380px] xl:h-[500px]"></div>
                 </div>
@@ -112,6 +112,7 @@
         {{-- CHART --}}
         <div class="bg-white rounded-lg shadow-lg">
             <p class="font-bold p-3">Diagram Data Sensor</p>
+            <h4 id="changeSensorTitle">S001</h4>
             <div class="p-10 ">
                 <canvas id="myChart"></canvas>
             </div>
@@ -119,7 +120,7 @@
 
     </main>
 
-    <x-slot:script>
+    {{-- <x-slot:script>
         <script>
             const updateDateTime = () => {
                 const date = new Date();
@@ -185,5 +186,5 @@
                 config
             );
         </script>
-    </x-slot:script>
+    </x-slot:script> --}}
 </x-layout>

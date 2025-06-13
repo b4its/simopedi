@@ -1,0 +1,702 @@
+[
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "120",
+    "curah_hujan": "15",
+    "kecepatan_aliran": "1.2",
+    "status_baterai": "85",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "122",
+    "curah_hujan": "16",
+    "kecepatan_aliran": "1.3",
+    "status_baterai": "84",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "125",
+    "curah_hujan": "20",
+    "kecepatan_aliran": "1.4",
+    "status_baterai": "83",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "126",
+    "curah_hujan": "18",
+    "kecepatan_aliran": "1.5",
+    "status_baterai": "82",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "128",
+    "curah_hujan": "22",
+    "kecepatan_aliran": "1.6",
+    "status_baterai": "81",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "110",
+    "curah_hujan": "10",
+    "kecepatan_aliran": "1",
+    "status_baterai": "90",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "113",
+    "curah_hujan": "12",
+    "kecepatan_aliran": "1.1",
+    "status_baterai": "89",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "115",
+    "curah_hujan": "13",
+    "kecepatan_aliran": "1.2",
+    "status_baterai": "88",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "117",
+    "curah_hujan": "14",
+    "kecepatan_aliran": "1.3",
+    "status_baterai": "87",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "119",
+    "curah_hujan": "15",
+    "kecepatan_aliran": "1.4",
+    "status_baterai": "86",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "100",
+    "curah_hujan": "5",
+    "kecepatan_aliran": "0.8",
+    "status_baterai": "95",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "103",
+    "curah_hujan": "7",
+    "kecepatan_aliran": "0.9",
+    "status_baterai": "94",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "105",
+    "curah_hujan": "8",
+    "kecepatan_aliran": "1",
+    "status_baterai": "93",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "107",
+    "curah_hujan": "9",
+    "kecepatan_aliran": "1.1",
+    "status_baterai": "92",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "110",
+    "curah_hujan": "10",
+    "kecepatan_aliran": "1.2",
+    "status_baterai": "91",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "130",
+    "curah_hujan": "25",
+    "kecepatan_aliran": "1.7",
+    "status_baterai": "80",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "132",
+    "curah_hujan": "26",
+    "kecepatan_aliran": "1.8",
+    "status_baterai": "79",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "135",
+    "curah_hujan": "28",
+    "kecepatan_aliran": "1.9",
+    "status_baterai": "78",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "138",
+    "curah_hujan": "30",
+    "kecepatan_aliran": "2",
+    "status_baterai": "77",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "140",
+    "curah_hujan": "32",
+    "kecepatan_aliran": "2.1",
+    "status_baterai": "76",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "90",
+    "curah_hujan": "3",
+    "kecepatan_aliran": "0.5",
+    "status_baterai": "98",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "92",
+    "curah_hujan": "4",
+    "kecepatan_aliran": "0.6",
+    "status_baterai": "97",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "95",
+    "curah_hujan": "5",
+    "kecepatan_aliran": "0.7",
+    "status_baterai": "96",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "97",
+    "curah_hujan": "6",
+    "kecepatan_aliran": "0.8",
+    "status_baterai": "95",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "100",
+    "curah_hujan": "7",
+    "kecepatan_aliran": "0.9",
+    "status_baterai": "94",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "85",
+    "curah_hujan": "2",
+    "kecepatan_aliran": "0.4",
+    "status_baterai": "99",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "87",
+    "curah_hujan": "2",
+    "kecepatan_aliran": "0.5",
+    "status_baterai": "98",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "90",
+    "curah_hujan": "3",
+    "kecepatan_aliran": "0.6",
+    "status_baterai": "97",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "92",
+    "curah_hujan": "4",
+    "kecepatan_aliran": "0.7",
+    "status_baterai": "96",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "94",
+    "curah_hujan": "5",
+    "kecepatan_aliran": "0.8",
+    "status_baterai": "95",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:00:00Z",
+    "ketinggian_air": "115",
+    "curah_hujan": "14",
+    "kecepatan_aliran": "1.1",
+    "status_baterai": "88",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:05:00Z",
+    "ketinggian_air": "117",
+    "curah_hujan": "15",
+    "kecepatan_aliran": "1.2",
+    "status_baterai": "87",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:10:00Z",
+    "ketinggian_air": "120",
+    "curah_hujan": "16",
+    "kecepatan_aliran": "1.3",
+    "status_baterai": "86",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:15:00Z",
+    "ketinggian_air": "122",
+    "curah_hujan": "17",
+    "kecepatan_aliran": "1.4",
+    "status_baterai": "85",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S001",
+    "timestamp": "2025-06-13T08:20:00Z",
+    "ketinggian_air": "124",
+    "curah_hujan": "18",
+    "kecepatan_aliran": "1.5",
+    "status_baterai": "84",
+    "koordinat_lat": "-0.5021",
+    "koordinat_lon": "117.1536"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 0:00",
+    "ketinggian_air": "85",
+    "curah_hujan": "10",
+    "kecepatan_aliran": "0.6",
+    "status_baterai": "95",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 1:00",
+    "ketinggian_air": "87",
+    "curah_hujan": "12",
+    "kecepatan_aliran": "0.7",
+    "status_baterai": "95",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 2:00",
+    "ketinggian_air": "89",
+    "curah_hujan": "11",
+    "kecepatan_aliran": "0.8",
+    "status_baterai": "94",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 3:00",
+    "ketinggian_air": "92",
+    "curah_hujan": "13",
+    "kecepatan_aliran": "0.9",
+    "status_baterai": "94",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 4:00",
+    "ketinggian_air": "94",
+    "curah_hujan": "12",
+    "kecepatan_aliran": "0.9",
+    "status_baterai": "94",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 5:00",
+    "ketinggian_air": "96",
+    "curah_hujan": "15",
+    "kecepatan_aliran": "1",
+    "status_baterai": "93",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 6:00",
+    "ketinggian_air": "98",
+    "curah_hujan": "14",
+    "kecepatan_aliran": "1.1",
+    "status_baterai": "93",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 7:00",
+    "ketinggian_air": "100",
+    "curah_hujan": "16",
+    "kecepatan_aliran": "1.2",
+    "status_baterai": "92",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 8:00",
+    "ketinggian_air": "102",
+    "curah_hujan": "18",
+    "kecepatan_aliran": "1.3",
+    "status_baterai": "92",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 9:00",
+    "ketinggian_air": "105",
+    "curah_hujan": "17",
+    "kecepatan_aliran": "1.4",
+    "status_baterai": "92",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 10:00",
+    "ketinggian_air": "107",
+    "curah_hujan": "19",
+    "kecepatan_aliran": "1.5",
+    "status_baterai": "91",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 11:00",
+    "ketinggian_air": "109",
+    "curah_hujan": "20",
+    "kecepatan_aliran": "1.5",
+    "status_baterai": "91",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 12:00",
+    "ketinggian_air": "111",
+    "curah_hujan": "21",
+    "kecepatan_aliran": "1.6",
+    "status_baterai": "91",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 13:00",
+    "ketinggian_air": "113",
+    "curah_hujan": "22",
+    "kecepatan_aliran": "1.7",
+    "status_baterai": "90",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 14:00",
+    "ketinggian_air": "115",
+    "curah_hujan": "21",
+    "kecepatan_aliran": "1.7",
+    "status_baterai": "90",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 15:00",
+    "ketinggian_air": "117",
+    "curah_hujan": "23",
+    "kecepatan_aliran": "1.8",
+    "status_baterai": "90",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 16:00",
+    "ketinggian_air": "119",
+    "curah_hujan": "24",
+    "kecepatan_aliran": "1.9",
+    "status_baterai": "89",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 17:00",
+    "ketinggian_air": "121",
+    "curah_hujan": "22",
+    "kecepatan_aliran": "1.9",
+    "status_baterai": "89",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 18:00",
+    "ketinggian_air": "123",
+    "curah_hujan": "21",
+    "kecepatan_aliran": "1.8",
+    "status_baterai": "88",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 19:00",
+    "ketinggian_air": "125",
+    "curah_hujan": "20",
+    "kecepatan_aliran": "1.7",
+    "status_baterai": "88",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 20:00",
+    "ketinggian_air": "122",
+    "curah_hujan": "18",
+    "kecepatan_aliran": "1.6",
+    "status_baterai": "88",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 21:00",
+    "ketinggian_air": "120",
+    "curah_hujan": "16",
+    "kecepatan_aliran": "1.5",
+    "status_baterai": "87",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 22:00",
+    "ketinggian_air": "118",
+    "curah_hujan": "15",
+    "kecepatan_aliran": "1.4",
+    "status_baterai": "87",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-13 23:00",
+    "ketinggian_air": "115",
+    "curah_hujan": "14",
+    "kecepatan_aliran": "1.3",
+    "status_baterai": "86",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 0:00",
+    "ketinggian_air": "112",
+    "curah_hujan": "13",
+    "kecepatan_aliran": "1.2",
+    "status_baterai": "86",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 1:00",
+    "ketinggian_air": "110",
+    "curah_hujan": "12",
+    "kecepatan_aliran": "1.1",
+    "status_baterai": "85",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 2:00",
+    "ketinggian_air": "108",
+    "curah_hujan": "11",
+    "kecepatan_aliran": "1",
+    "status_baterai": "85",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 3:00",
+    "ketinggian_air": "105",
+    "curah_hujan": "10",
+    "kecepatan_aliran": "0.9",
+    "status_baterai": "85",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 4:00",
+    "ketinggian_air": "103",
+    "curah_hujan": "9",
+    "kecepatan_aliran": "0.8",
+    "status_baterai": "84",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 5:00",
+    "ketinggian_air": "101",
+    "curah_hujan": "8",
+    "kecepatan_aliran": "0.7",
+    "status_baterai": "84",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 6:00",
+    "ketinggian_air": "98",
+    "curah_hujan": "7",
+    "kecepatan_aliran": "0.6",
+    "status_baterai": "83",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 7:00",
+    "ketinggian_air": "95",
+    "curah_hujan": "6",
+    "kecepatan_aliran": "0.5",
+    "status_baterai": "83",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 8:00",
+    "ketinggian_air": "92",
+    "curah_hujan": "5",
+    "kecepatan_aliran": "0.4",
+    "status_baterai": "83",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 9:00",
+    "ketinggian_air": "90",
+    "curah_hujan": "4",
+    "kecepatan_aliran": "0.4",
+    "status_baterai": "82",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  },
+  {
+    "id_sensor": "S002",
+    "timestamp": "2024-06-14 10:00",
+    "ketinggian_air": "87",
+    "curah_hujan": "3",
+    "kecepatan_aliran": "0.3",
+    "status_baterai": "82",
+    "koordinat_lat": "-0.503",
+    "koordinat_lon": "117.153"
+  }
+]

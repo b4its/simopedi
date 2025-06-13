@@ -1,0 +1,153 @@
+[
+  {
+    "sensor_id": "SEN-KRM-01",
+    "lokasi": "Sungai Karang Mumus",
+    "koordinat": {"lat": -0.494023, "lon": 117.148323},
+    "data": [
+      {
+        "timestamp": "2025-06-09T08:00:00+08:00",
+        "ultrasonic": {
+          "jarak_ke_air_cm": 62,
+          "ketinggian_sensor_cm": 300
+        },
+        "svr": {
+          "kecepatan_aliran_ms": 1.64
+        },
+        "turbidity": {
+          "ntu": 130
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:02+08:00",
+        "ultrasonic": {
+          "jarak_ke_air_cm": 61,
+          "ketinggian_sensor_cm": 300
+        },
+        "svr": {
+          "kecepatan_aliran_ms": 1.67
+        },
+        "turbidity": {
+          "ntu": 135
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:04+08:00",
+        "ultrasonic": {
+          "jarak_ke_air_cm": 60,
+          "ketinggian_sensor_cm": 300
+        },
+        "svr": {
+          "kecepatan_aliran_ms": 1.70
+        },
+        "turbidity": {
+          "ntu": 140
+        }
+      }
+    ]
+  },
+  {
+    "sensor_id": "SEN-LJN-02",
+    "lokasi": "Anak Sungai Loa Janan",
+    "koordinat": {"lat": -0.563211, "lon": 117.203101},
+    "data": [
+      {
+        "timestamp": "2025-06-09T08:00:00+08:00",
+        "ultrasonic": {
+          "jarak_ke_air_cm": 89,
+          "ketinggian_sensor_cm": 250
+        },
+        "rain_gauge": {
+          "curah_hujan_mm_per_jam": 12
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:02+08:00",
+        "ultrasonic": {
+          "jarak_ke_air_cm": 88,
+          "ketinggian_sensor_cm": 250
+        },
+        "rain_gauge": {
+          "curah_hujan_mm_per_jam": 12
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:04+08:00",
+        "ultrasonic": {
+          "jarak_ke_air_cm": 87,
+          "ketinggian_sensor_cm": 250
+        },
+        "rain_gauge": {
+          "curah_hujan_mm_per_jam": 13
+        }
+      }
+    ]
+  },
+  {
+    "sensor_id": "SEN-SIR-03",
+    "lokasi": "Lereng Sungai Siring",
+    "koordinat": {"lat": -0.479876, "lon": 117.184029},
+    "data": [
+      {
+        "timestamp": "2025-06-09T08:00:00+08:00",
+        "soil_moisture": {
+          "kelembapan_tanah_pct": 77
+        },
+        "tilt": {
+          "kemiringan_deg": 2.2
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:02+08:00",
+        "soil_moisture": {
+          "kelembapan_tanah_pct": 78
+        },
+        "tilt": {
+          "kemiringan_deg": 2.2
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:04+08:00",
+        "soil_moisture": {
+          "kelembapan_tanah_pct": 79
+        },
+        "tilt": {
+          "kemiringan_deg": 2.4
+        }
+      }
+    ]
+  },
+  {
+    "sensor_id": "SEN-KOT-04",
+    "lokasi": "Samarinda Tengah",
+    "koordinat": {"lat": -0.498112, "lon": 117.143112},
+    "data": [
+      {
+        "timestamp": "2025-06-09T08:00:00+08:00",
+        "rain_gauge": {
+          "curah_hujan_mm_per_jam": 18
+        },
+        "barometer": {
+          "tekanan_udara_hpa": 1008
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:02+08:00",
+        "rain_gauge": {
+          "curah_hujan_mm_per_jam": 19
+        },
+        "barometer": {
+          "tekanan_udara_hpa": 1007
+        }
+      },
+      {
+        "timestamp": "2025-06-09T08:00:04+08:00",
+        "rain_gauge": {
+          "curah_hujan_mm_per_jam": 20
+        },
+        "barometer": {
+          "tekanan_udara_hpa": 1007
+        }
+      }
+    ]
+  }
+]
