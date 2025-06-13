@@ -16,7 +16,8 @@
                 <div class="mb-3">
                     <div class="mb-3 flex justify-between">
                         <span class="font-bold">Map Aktivitas</span>
-                        <button id="fullscreen-map" class="bg-gray-200 py-1 px-2 rounded-lg"><i class="bi bi-fullscreen"></i></button>
+                        <button id="fullscreen-map" class="cursor-pointer bg-gray-200 py-1 px-2 rounded-lg"><i
+                                class="bi bi-fullscreen"></i></button>
                     </div>
                     <div id="map" class="w-full h-[380px] xl:h-[500px]"></div>
                 </div>
@@ -109,12 +110,31 @@
         </div>
 
         {{-- CHART --}}
-        <div class="bg-white rounded-lg shadow-lg">
+        <div class="bg-white rounded-lg shadow-lg mb-3">
             <p class="font-bold p-3">Diagram Data Sensor</p>
             <div class="p-10 ">
                 <canvas id="myChart"></canvas>
             </div>
         </div>
+
+        <div class="flex overflow-x-auto space-x-4 py-5 px-3 bg-gradient-to-r from-blue-500 to-blue-900 rounded-lg">
+    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+        <img src="{{ asset('/images/disdamkar.png') }}" alt="disdamkar" class="w-36">
+    </div>
+    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+        <img src="{{ asset('/images/bmkg.png') }}" alt="bmkg" class="w-36">
+    </div>
+    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+        <img src="{{ asset('/images/bpbd.png') }}" alt="bpbd" class="w-36">
+    </div>
+    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+        <img src="{{ asset('/images/image.png') }}" alt="image" class="w-36">
+    </div>
+    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+        <img src="{{ asset('/images/kominfo.png') }}" alt="kominfo" class="w-36">
+    </div>
+</div>
+
 
     </main>
 

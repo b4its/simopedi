@@ -28,7 +28,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="">Pihak Terkait</a>
+                <a href="/pihak-terkait" class="">Pihak Terkait</a>
             </li>
             <li>
                 <a href="">Tentang</a>

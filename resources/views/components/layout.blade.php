@@ -23,9 +23,10 @@
             font-family: "Inter", sans-serif;
         }
     </style>
+    {{-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> --}}
 
     {{-- ALPINEJS --}}
-    {{-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> --}}
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
@@ -54,7 +55,37 @@
     <!-- Spotlight JS -->
     <script src="https://cdn.jsdelivr.net/gh/cttricks/spotlight.js/dist/spotlight.min.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/gh/cttricks/spotlight.js/dist/spotlight.min.js" type="module" lights-on></script>
+
+    {{-- <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> --}}
     {{ $script ?? '' }}
+    <script>
+            const button = document.getElementById('mobileMenuBtn');
+            const spans = button.querySelectorAll('span');
+            const mobileMenu = document.getElementById('mobileMenu');
+            let open = false;
+
+            button.addEventListener('click', () => {
+                open = !open;
+
+                // Update hamburger icon animation
+                spans[0].className = `transform transition w - full h - px bg - current absolute $ {
+                    open ? 'translate-y-0 rotate-45' : '-translate-y-2'
+                }`;
+                spans[1].className = `transform transition w - full h - px bg - current absolute $ {
+                    open ? 'opacity-0 translate-x-3' : 'opacity-100'
+                }`;
+                spans[2].className = `transform transition w - full h - px bg - current absolute $ {
+                    open ? 'translate-y-0 -rotate-45' : 'translate-y-2'
+                }`;
+
+                // Toggle mobile menu
+                if (open) {
+                    mobileMenu.classList.add('menu-open');
+                } else {
+                    mobileMenu.classList.remove('menu-open');
+                }
+            });
+        </script>
 
     <x-footer></x-footer>
 </body>
