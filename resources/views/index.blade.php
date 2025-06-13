@@ -14,10 +14,9 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-start mb-3">
             <div class="md:col-span-9 bg-white shadow-sm rounded-lg p-3 mb-3">
                 <div class="mb-3">
-                    <div class="mb-3">
+                    <div class="mb-3 flex justify-between">
                         <span class="font-bold">Map Aktivitas</span>
-                        <button type="spotlight-button:start">Mulai Tur</button>
-
+                        <button id="fullscreen-map" class="bg-gray-200 py-1 px-2 rounded-lg"><i class="bi bi-fullscreen"></i></button>
                     </div>
                     <div id="map" class="w-full h-[380px] xl:h-[500px]"></div>
                 </div>
