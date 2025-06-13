@@ -41,7 +41,7 @@
             
   // ⛰️ Tampilkan marker gempa dari quakes.json
     // 📡 Tampilkan marker sensor dari dataSensor.json
-    fetch('./data/dummy.json')
+  fetch('/data/dataSensor.json')
       .then(response => response.json())  
       .then(sensorData => {
         sensorData.forEach(sensor => {
@@ -124,7 +124,7 @@
 
           
   // 🌧️ Tampilkan data sensor dari dummy.json
-  fetch('/public/storage/data/dummy.json')
+  fetch('/data/dummy.json')
     .then(response => response.json())
     .then(sensorData => {
       sensorData.forEach(sensor => {

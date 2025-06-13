@@ -14,10 +14,10 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-start mb-3">
             <div class="md:col-span-9 bg-white shadow-sm rounded-lg p-3 mb-3">
                 <div class="mb-3">
-                    <div class="mb-3">
+                    <div class="mb-3 flex justify-between">
                         <span class="font-bold">Map Aktivitas</span>
-                        <button type="spotlight-button:start">Mulai Tur</button>
-                        
+                        <button id="refresh-map" class="bg-gray-200 py-1 px-2 rounded-lg" hidden><i class="bi bi-fullscreen"></i></button>
+                        <button id="fullscreen-map" class="bg-gray-200 py-1 px-2 rounded-lg"><i class="bi bi-fullscreen"></i></button>
                     </div>
                     <div id="map" class="w-full h-[380px] xl:h-[500px]"></div>
                 </div>
@@ -108,11 +108,11 @@
 
             </div>
         </div>
-
+        <input type="text" id="dataSebaranSensor" hidden>
         {{-- CHART --}}
         <div class="bg-white rounded-lg shadow-lg">
             <p class="font-bold p-3">Diagram Data Sensor</p>
-            <h4 id="changeSensorTitle">S001</h4>
+            <h4 id="changeSensorTitle" class="p-3">S001</h4>
             <div class="p-10 ">
                 <canvas id="myChart"></canvas>
             </div>

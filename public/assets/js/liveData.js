@@ -181,7 +181,7 @@ $(document).ready(function () {
   };
 
   // Ambil data JSON sensor
-  fetch('data/dataSensor.json')
+  fetch('/data/dataSensor.json')
     .then(res => res.json())
     .then(json => {
       nilaiData = Array.isArray(json) ? json : [json]; // antisipasi jika hanya satu objek
