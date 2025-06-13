@@ -12,7 +12,7 @@
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
     {{-- ALPINEJS --}}
-    {{-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> --}}
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
@@ -21,6 +21,7 @@
 
     {{-- CONTENNT --}}
     {{ $slot }}
+
     {{-- CHARTJS --}}
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0"></script>
@@ -37,6 +38,9 @@
     <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.0.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@2.0.0"></script>
+    <!-- Spotlight JS -->
+    <script src="https://cdn.jsdelivr.net/gh/cttricks/spotlight.js/dist/spotlight.min.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cttricks/spotlight.js/dist/spotlight.min.js" type="module" lights-on></script>
     {{ $script ?? '' }}
 
     <x-footer></x-footer>

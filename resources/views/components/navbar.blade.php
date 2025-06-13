@@ -2,12 +2,10 @@
     <div>
         <img src="{{ asset('/images/logo.png') }}" alt="simopedi" class="w-36">
     </div>
-
     <div class="text-sm flex">
         {{-- MENU MOBILE --}}
         <button x-data="{ open: false }" x-on:click="open = !open"
             class="flex items-center space-x-2 focus:outline-none sm:hidden">
-            {{-- <span x-text="open ? 'Close' : 'Open'" class="font-medium text-lg">Open</span> --}}
 
             <div class="w-6 flex items-center justify-center relative">
                 <span x-bind:class="open ? 'translate-y-0 rotate-45' : '-translate-y-2'"
@@ -30,10 +28,10 @@
                 </a>
             </li>
             <li>
-                <a href="">Lapor</a>
+                <a href="" class="">Pihak Terkait</a>
             </li>
             <li>
-                <a href="">Kontak</a>
+                <a href="">Tentang</a>
             </li>
         </ul>
     </div>

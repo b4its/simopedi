@@ -16,6 +16,8 @@
                 <div class="mb-3">
                     <div class="mb-3">
                         <span class="font-bold">Map Aktivitas</span>
+                        <button type="spotlight-button:start">Mulai Tur</button>
+
                     </div>
                     <div id="map" class="w-full h-[380px] xl:h-[500px]"></div>
                 </div>
