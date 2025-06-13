@@ -25,25 +25,20 @@
 
             <div class="md:col-span-3 flex-none">
                 <div class="grid grid-cols-2 md:grid-cols-1 items-start gap-3">
-                    <div class="bg-white shadow-sm rounded-lg p-3 mb-3">
-                        <div class="mb-3">
-                            <span class="font-bold">Peringatan dan Bahaya</span>
-                        </div>
-                        <div>
-                            <input id="default-range" type="range" value="50"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+       
+                    <div class="bg-white shadow-sm rounded-lg p-5 grid gap-3 text-sm">
+                        <h2>Pengaturan Sistem</h2>
                         </div>
                     </div>
-                    <div class="bg-white shadow-sm rounded-lg p-5 grid gap-3 text-sm">
-                        <div class="items-center flex gap-5 bg-gray-200 px-4 py-2 rounded-lg shadow-sm">
-                            <span class="w-[40px] h-[40px] border-4 border-blue-300 bg-blue-400 rounded-full"></span>
-                            <p>Banjir Skala Aman</p>
-                        </div>
-                        <div class="items-center flex gap-5 bg-gray-200 px-4 py-2 rounded-lg shadow-sm">
-                            <span
-                                class="w-[40px] h-[40px] border-4 border-orange-300 bg-orange-400 rounded-full"></span>
-                            <p>Banjir Skala Siaga</p>
-                        </div>
+                    <input type="text" id="statusWaspadaTAirData" hidden>
+                    <input type="text" id="statusWaspadaCurahData" hidden>
+                    <div class="bg-white shadow-sm rounded-lg p-5 grid gap-3 text-sm mt-4">
+                        
+                    <!-- Container untuk status -->
+                    <div id="statusBanjirContainer"></div>
+
+                    <!-- Script logic -->
+
                         <div class="items-center flex gap-5 bg-gray-200 px-4 py-2 rounded-lg shadow-sm">
                             <span class="w-[40px] h-[40px] border-4 border-red-300 bg-red-400 rounded-full"></span>
                             <p>Banjir Skala Darurat</p>
@@ -109,6 +104,7 @@
             </div>
         </div>
         <input type="text" id="dataSebaranSensor" hidden>
+        <input type="text" id="kondisiKeadaanData" value="1" hidden>
         {{-- CHART --}}
         <div class="bg-white rounded-lg shadow-lg">
             <p class="font-bold p-3">Diagram Data Sensor</p>

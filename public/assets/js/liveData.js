@@ -107,11 +107,47 @@ $(document).ready(function () {
     // perhitungan interval data
     const min = -100;
     const max = 100;
-    
-    var ketinggian = Math.floor(Math.random() * (max - min + 2) + sensor.ketinggian_air);
-    var curah = Math.floor(Math.random() * (max - min + 2) + sensor.curah_hujan);
+    var statusWaspadaTAir = 1;
+    var statusWaspadaCurah = 1;
+    var kondisiKeadaan =  $("#statusWaspadaTAir").text() ? parseInt($("#kondisiKeadaanData").text()) : 1;
+    console.log("keadaan data: " + kondisiKeadaan);
+    var ketinggian = Math.floor(Math.random() * (max - min + 2) + sensor.ketinggian_air) + kondisiKeadaan;
+    var curah = Math.floor(Math.random() * (max - min + 2) + sensor.curah_hujan) + kondisiKeadaan;
     console.log("Ketinggian: " + ketinggian);
     console.log("Curah: " + curah);
+    statusWaspadaTAir = (ketinggian <= 720) ? 1 : (ketinggian >= 720) ? 2 : (ketinggian >= 810 && ketinggian <= 950) ? 3 : 4;
+    statusWaspadaCurah = (curah <= 50) ? 1 : (curah >= 51 && curah <= 100) ? 2  : 3;
+
+  
+    if (statusWaspadaTAir == 1)
+    {
+      console.log("Ketinggian Air: ");
+      console.log("Status Aman");
+    } else if (statusWaspadaTAir == 2)
+    {
+      console.log("Ketinggian Air: ");
+      console.log("Status Siaga 1");
+    } else if (statusWaspadaTAir == 3)
+    {
+      console.log("Ketinggian Air: ");
+      console.log("Status Siaga 2");
+    } else{
+      console.log("Ketinggian Air: ");
+      console.log("Status Air DARURAT NINU NINUU");
+    }
+
+    if (statusWaspadaCurah == 1)
+    {
+      console.log("Curah Hujan: ");
+      console.log("Status Aman");
+    } else if (statusWaspadaCurah == 2)
+    {
+      console.log("Curah Hujan: ");
+      console.log("Status Siaga 1");
+    } else{
+      console.log("Curah Hujan: ");
+      console.log("Status Hujan DARURAT NINU NINUU");
+    }
     // Konversi ke angka
     // const ketinggian = parseFloat(sensor.ketinggian_air);
     // const curah = parseFloat(sensor.curah_hujan);

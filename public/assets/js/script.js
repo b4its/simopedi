@@ -6,17 +6,17 @@ function updateTime() {
 updateTime();
 setInterval(updateTime, 1000);
 
-// // Sidebar toggle for mobile
-// const sidebar = document.getElementById('sidebar');
-// const sidebarToggle = document.getElementById('sidebar-toggle');
-// const closeSidebar = document.getElementById('close-sidebar');
+$(document).on("click", "#buttonAman", function () {
 
-// sidebarToggle.addEventListener('click', function() {
-//     sidebar.classList.toggle('hidden');
-//     sidebar.classList.toggle('block');
-// });
+  $("#kondisiKeadaanData").text(1);
+});
 
-// closeSidebar.addEventListener('click', function() {
-//     sidebar.classList.add('hidden');
-//     sidebar.classList.remove('block');
-// });
+$(document).on("click", "#buttonSiaga", function () {
+
+  $("#kondisiKeadaanData").text(8);
+});
+
+$(document).on("click", "#buttonDarurat", function () {
+
+  $("#kondisiKeadaanData").text(19);
+});
