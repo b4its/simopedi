@@ -1,6 +1,5 @@
 <x-layout>
     <!-- Floating Button -->
-    
     <button href="#" onclick="my_modal_1.showModal()"
         class="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition duration-300 ease-in-out"
         title="Kembali ke atas">
@@ -8,26 +7,43 @@
     </button>
 
     <dialog id="my_modal_1" class="modal">
-        <div class="modal-box">
-            <div class="flex justify-center">
-                <img src="{{ asset('/images/logo.png') }}" alt="404 Not Found" class="w-1/2">
+    <div class="modal-box max-w-xl">
+        <!-- Logo -->
+        <div class="flex justify-center mb-5">
+            <img src="{{ asset('/images/logo.png') }}" alt="404 Not Found" class="w-1/2">
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="flex flex-col items-center text-blue-500 bg-gray-100 shadow-sm p-5 rounded-lg">
+                <i class="bi bi-arrow-bar-down text-3xl mb-2"></i>
+                <p class="text-center">Saturasi Rendah</p>
             </div>
-            <div class="grid grid-cols-2 gap-3">
-                <div class="text-blue-500 bg-gray-100 shadow-sm flex flex-row justify-center p-5">
-                    <div>
-                        <i style="font-size: 30px;" class="bi bi-arrow-bar-down"></i>
-                    </div>
-                    <p>Saturasi Rendah</p>
-                </div>
+
+            <div class="flex flex-col items-center text-blue-500 bg-gray-100 shadow-sm p-5 rounded-lg">
+                <i class="bi bi-card-image text-3xl mb-2"></i>
+                <p class="text-center">Sembunyikan gambar</p>
             </div>
-            <div class="modal-action">
-                <form method="dialog">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button>
-                </form>
+
+            <div class="flex flex-col items-center text-blue-500 bg-gray-100 shadow-sm p-5 rounded-lg">
+                <i class="bi bi-arrow-counterclockwise text-3xl mb-2"></i>
+                <p class="text-center">Normal</p>
+            </div>
+
+            <div class="flex flex-col items-center text-blue-500 bg-gray-100 shadow-sm p-5 rounded-lg">
+                <i class="bi bi-info-circle text-3xl mb-2"></i>
+                <p class="text-center">Informasi</p>
             </div>
         </div>
-    </dialog>
+
+        <!-- Modal Action -->
+        <div class="modal-action mt-6">
+            <form method="dialog">
+                <button class="btn btn-primary">Tutup</button>
+            </form>
+        </div>
+    </div>
+</dialog>
+
     <dialog id="my_modal_2" class="modal">
         <div class="modal-box">
             <div class="flex justify-center">
@@ -166,9 +182,10 @@
 
             const Spotlight = await spotlight();
 
-            Spotlight.start();
+            // Spotlight.start();
         </script>
         <script>
+            my_modal_1.showModal()
             const updateDateTime = () => {
                 const date = new Date();
                 const hour = date.toLocaleString('id-ID', {
