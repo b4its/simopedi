@@ -30,9 +30,6 @@
             <li>
                 <a href="/pihak-terkait" class="">Pihak Terkait</a>
             </li>
-            <li>
-                <a href="">Tentang</a>
-            </li>
         </ul>
     </div>
     <script>

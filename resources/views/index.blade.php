@@ -1,9 +1,54 @@
 <x-layout>
+    <!-- Floating Button -->
+    
+    <button href="#" onclick="my_modal_1.showModal()"
+        class="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition duration-300 ease-in-out"
+        title="Kembali ke atas">
+        <img src="{{ asset('/images/magic-wand.png') }}" alt="404 Not Found" class="">
+    </button>
+
+    <dialog id="my_modal_1" class="modal">
+        <div class="modal-box">
+            <div class="flex justify-center">
+                <img src="{{ asset('/images/logo.png') }}" alt="404 Not Found" class="w-1/2">
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+                <div class="text-blue-500 bg-gray-100 shadow-sm flex flex-row justify-center p-5">
+                    <div>
+                        <i style="font-size: 30px;" class="bi bi-arrow-bar-down"></i>
+                    </div>
+                    <p>Saturasi Rendah</p>
+                </div>
+            </div>
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+    <dialog id="my_modal_2" class="modal">
+        <div class="modal-box">
+            <div class="flex justify-center">
+                <img src="{{ asset('/images/logo.png') }}" alt="404 Not Found" class="w-1/2">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, nam!</p>
+            <div class="modal-action">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn" type="spotlight-button:start">Mulai</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+
     <main class="bg-gray-100 py-5 px-3 lg:px-16 xl:px-20">
         <div class="flex justify-between items-center mb-3">
             <div>
                 <h3 class="font-bold text-xl">Monitoring Dashboard</h3>
             </div>
+            
             <div class="px-2 py-1 rounded-lg bg-gray-200 items-center">
                 <i class="bi bi-clock"></i>
                 <span id="dateTime">
@@ -11,54 +56,27 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-start mb-3">
-            <div class="md:col-span-9 bg-white shadow-sm rounded-lg p-3 mb-3">
+        <div class="grid grid-cols-1  gap-3 items-start mb-3">
+            <div class=" bg-white shadow-sm rounded-lg p-3 mb-3">
                 <div class="mb-3">
                     <div class="mb-3 flex justify-between">
                         <span class="font-bold">Map Aktivitas</span>
                         <button id="fullscreen-map" class="cursor-pointer bg-gray-200 py-1 px-2 rounded-lg"><i
                                 class="bi bi-fullscreen"></i></button>
                     </div>
+                    <!-- Spotlight; ; Kami hadir menyediakan dashboard interaktif yang menyajikan data sensor lingkungan secara Realtime untuk memprediksi bencana seperti banjir di kota Samarinda. -->
                     <div id="map" class="w-full h-[380px] xl:h-[500px]"></div>
                 </div>
             </div>
-
-            <div class="md:col-span-3 flex-none">
-                <div class="grid grid-cols-2 md:grid-cols-1 items-start gap-3">
-                    <div class="bg-white shadow-sm rounded-lg p-3 mb-3">
-                        <div class="mb-3">
-                            <span class="font-bold">Peringatan dan Bahaya</span>
-                        </div>
-                        <div>
-                            <input id="default-range" type="range" value="50"
-                                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
-                        </div>
-                    </div>
-                    <div class="bg-white shadow-sm rounded-lg p-5 grid gap-3 text-sm">
-                        <div class="items-center flex gap-5 bg-gray-200 px-4 py-2 rounded-lg shadow-sm">
-                            <span class="w-[40px] h-[40px] border-4 border-blue-300 bg-blue-400 rounded-full"></span>
-                            <p>Banjir Skala Aman</p>
-                        </div>
-                        <div class="items-center flex gap-5 bg-gray-200 px-4 py-2 rounded-lg shadow-sm">
-                            <span
-                                class="w-[40px] h-[40px] border-4 border-orange-300 bg-orange-400 rounded-full"></span>
-                            <p>Banjir Skala Siaga</p>
-                        </div>
-                        <div class="items-center flex gap-5 bg-gray-200 px-4 py-2 rounded-lg shadow-sm">
-                            <span class="w-[40px] h-[40px] border-4 border-red-300 bg-red-400 rounded-full"></span>
-                            <p>Banjir Skala Darurat</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-
-
+        
+        
         <div class="grid grid-cols-12 mb-3">
-            <div class="col-span-12 md:col-span-9">
+            <!-- Spotlight; ; Kami hadir menyediakan dashboard interaktif yang menyajikan data sensor lingkungan secara Realtime untuk memprediksi bencana seperti banjir di kota Samarinda. -->
+            <div class="col-span-12">
                 <div class="grid grid-cols-3 gap-3">
                     <div
-                        class="bg-white shadow-sm rounded-lg border-l-2 border-blue-600 p-3 flex justify-between items-center shaodw-lg">
+                        class="bg-white shadow-sm rounded-lg border-l-2 border-blue-600 p-3 py-5 flex justify-between items-center shaodw-lg">
                         <div>
                             <p class="font-bold">Tinggi Air</p>
                             <p class="">150 CM</p>
@@ -74,7 +92,7 @@
                     </div>
 
                     <div
-                        class="bg-white shadow-sm rounded-lg border-l-2 border-orange-600 p-3 flex justify-between items-center shaodw-lg">
+                        class="bg-white shadow-sm rounded-lg border-l-2 border-orange-600 p-3 py-5 flex justify-between items-center shaodw-lg">
                         <div>
                             <p class="font-bold">Tinggi Air</p>
                             <p class="">150 CM</p>
@@ -90,7 +108,7 @@
                     </div>
 
                     <div
-                        class="bg-white shadow-sm rounded-lg border-l-2 border-green-600 p-3 flex justify-between items-center shaodw-lg">
+                        class="bg-white shadow-sm rounded-lg border-l-2 border-green-600 p-3 py-5 flex justify-between items-center shaodw-lg">
                         <div>
                             <p class="font-bold">Tinggi Air</p>
                             <p class="">150 CM</p>
@@ -110,6 +128,7 @@
         </div>
 
         {{-- CHART --}}
+
         <div class="bg-white rounded-lg shadow-lg mb-3">
             <p class="font-bold p-3">Diagram Data Sensor</p>
             <div class="p-10 ">
@@ -117,28 +136,38 @@
             </div>
         </div>
 
-        <div class="flex overflow-x-auto space-x-4 py-5 px-3 bg-gradient-to-r from-blue-500 to-blue-900 rounded-lg">
-    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
-        <img src="{{ asset('/images/disdamkar.png') }}" alt="disdamkar" class="w-36">
-    </div>
-    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
-        <img src="{{ asset('/images/bmkg.png') }}" alt="bmkg" class="w-36">
-    </div>
-    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
-        <img src="{{ asset('/images/bpbd.png') }}" alt="bpbd" class="w-36">
-    </div>
-    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
-        <img src="{{ asset('/images/image.png') }}" alt="image" class="w-36">
-    </div>
-    <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
-        <img src="{{ asset('/images/kominfo.png') }}" alt="kominfo" class="w-36">
-    </div>
-</div>
+        <div
+            class="flex overflow-x-auto justify-center space-x-4 py-5 px-3 bg-gradient-to-r from-blue-500 to-blue-900 rounded-lg">
+            <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+                <img src="{{ asset('/images/disdamkar.png') }}" alt="disdamkar" class="w-36">
+            </div>
+            <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+                <img src="{{ asset('/images/bmkg.png') }}" alt="bmkg" class="w-36">
+            </div>
+            <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+                <img src="{{ asset('/images/bpbd.png') }}" alt="bpbd" class="w-36">
+            </div>
+            <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+                <img src="{{ asset('/images/image.png') }}" alt="image" class="w-36">
+            </div>
+            <div class="flex-shrink-0 bg-white p-6 rounded-lg shadow-lg">
+                <img src="{{ asset('/images/kominfo.png') }}" alt="kominfo" class="w-36">
+            </div>
+        </div>
 
 
     </main>
 
     <x-slot:script>
+        <script type="module">
+            import {
+                spotlight
+            } from 'https://cdn.jsdelivr.net/gh/cttricks/spotlight.js/dist/spotlight.min.js';
+
+            const Spotlight = await spotlight();
+
+            Spotlight.start();
+        </script>
         <script>
             const updateDateTime = () => {
                 const date = new Date();
